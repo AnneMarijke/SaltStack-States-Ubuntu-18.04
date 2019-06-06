@@ -1,7 +1,7 @@
 install_zabbix:
   pkg.installed:
     - sources:
-      - zabbix-release: https://repo.zabbix.com/zabbix/4.2/ubuntu/pool/main/z/zabbix-release/zab$
+      - zabbix-release: https://repo.zabbix.com/zabbix/4.2/ubuntu/pool/main/z/zabbix-release/zabbix-release_4.2-1+bionic_all.deb
 zabbix-agent:
   pkg.latest:
     - refresh: true
