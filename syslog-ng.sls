@@ -1,0 +1,3 @@
+syslog-ng:
+  pkg:
+    - installed
