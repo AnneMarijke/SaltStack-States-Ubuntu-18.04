@@ -7,6 +7,7 @@ base:
     - mysql
     - php
     - syslog-ng
+    - docker
 
   # This machine gets the following state files applied
   'UB-375726-01':
