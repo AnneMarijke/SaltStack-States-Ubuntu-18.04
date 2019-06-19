@@ -7,6 +7,7 @@ base:
     - mysql
     - php
     - syslog-ng
+    - curl
     - docker
 
   # This machine gets the following state files applied
