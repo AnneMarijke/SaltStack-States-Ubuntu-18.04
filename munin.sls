@@ -18,4 +18,4 @@ munin-conf-file:
 munin-conf:
   service.running:
     - name: munin
-    - restart: True      
+    - restart: True
