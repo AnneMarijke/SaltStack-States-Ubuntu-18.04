@@ -13,7 +13,7 @@ zabbix-frontend-php:
 
 /etc/zabbix/zabbix_server.conf:
   file.append:
-    - text: 'DBPassword=pass'
+    - text: 'DBPassword=toor'
 
 run_zabbix:
   service.running:
