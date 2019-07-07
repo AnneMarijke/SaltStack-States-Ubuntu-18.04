@@ -36,4 +36,3 @@ munin-conf:
   service.running:
     - name: munin-node
     - restart: true
-
