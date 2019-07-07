@@ -1,4 +1,3 @@
-
 install_zabbix:
   pkg.installed:
     - sources:
