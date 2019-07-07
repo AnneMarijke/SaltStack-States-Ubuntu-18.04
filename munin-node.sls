@@ -30,6 +30,7 @@ munin-plugins:
   cmd:
     - run
     - name: ln -s /usr/share/munin/plugins/mysql_threads /etc/munin/plugins/
+    - creates: /etc/munin/plugins/mysql_threads
 
 munin-conf:
   service.running:
