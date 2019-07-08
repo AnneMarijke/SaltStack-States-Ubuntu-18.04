@@ -10,5 +10,5 @@ sudo systemctl start salt-minion
 sudo systemctl enable salt-minion
 sudo firewall-cmd --permanent --zone=public --add-port=4505-4506/tcp
 sudo firewall-cmd –reload
-sudo salt-key –A
 mkdir /srv/salt
+sudo salt-key –A
