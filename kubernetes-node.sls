@@ -1,4 +1,4 @@
 kubeadm-join:
   cmd.run:
-    - name: sudo kubeadm join 10.2.3.52:6443 --token 653sxm.1jd6fzhxmgp68kkr --discovery-token-ca-cert-hash sha256:381b05695468a020a4ed9376ef48e0f5a32e89c68bc2ed55e66ed085da6d5d52
+    - name: sudo kubeadm join 10.2.3.52:6443 --token mo2cqt.q97kw3ixqqlg8fxt --discovery-token-ca-cert-hash sha256:7a1894d29cc4856372a176e33f58cc4ded48333fed5bb4b345a2f1f914e3f947
     - creates: /etc/kubernetes/pki/ca.crt
